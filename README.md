@@ -26,7 +26,7 @@ Este é um jogo simples de adivinhação onde o usuário deve tentar acertar um 
 
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/seu-usuario/acerte-o-numero-secreto.git
+   git clone https://github.com/rafaelasilverio/numero-secreto.git
 
 2. Acesse a pasta do projeto:
    ```bash

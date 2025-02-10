@@ -80,3 +80,7 @@ div {
     background: var(--primary-color);
     color: var(--bg-color);
 }
+
+.chute{
+    margin-left: 3.75rem;
+}

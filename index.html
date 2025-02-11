@@ -14,12 +14,14 @@
 
     <h3>O número secreto está entre <span id="menor-valor">0</span> e <span id="maior-valor">100</span></h3>
 
-    <div class="mensagem">
-        <label for="numeroDigitado">Digite um número:</label>
-        <input  id="numeroDigitado" class="box" />
-        <button class="btn-enviar" onclick="verificaSeOChutePossuiUmValorValido()">Enviar</button>
+    <section class="mensagem">
+        <form onsubmit="event.preventDefault(); verificaSeOChutePossuiUmValorValido()">
+            <label for="numeroDigitado">Digite um número:</label>
+            <input id="numeroDigitado" class="box" type="number" />
+            <button type="submit" class="btn-enviar">Enviar</button>
+        </form>
         <div id="chute" class="chute"></div>
-    </div>
+    </section>
 
     <script src="app/sortearNumero.js"></script>
     <script src="app/validacao.js"></script>
